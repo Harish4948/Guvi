@@ -3,6 +3,6 @@ c=raw_input()
 if(c.lower() in vowels):
       print("Vowel")
 elif(ord(c)>=97 and ord(c)<=122):
-      print("Consonent")
+      print("Consonant")
 else:
       print("Invalid")
