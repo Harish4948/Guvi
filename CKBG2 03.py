@@ -4,3 +4,5 @@ if(n>0):
             print("yes")
       elif(n%2==1):
             print("yes")
+      else:
+            print("no")
