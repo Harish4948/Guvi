@@ -1,3 +1,4 @@
+#CODE To find the elements with occurance 1
 n=raw_input()
 l=map(int,raw_input().split()) #get the numbers
 d=dict()    # store the occurances
