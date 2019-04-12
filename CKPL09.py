@@ -1,3 +1,4 @@
+#No. of PRIME IN GIVEN RANGE
 from __future__ import print_function
 def isPrime(n) : 
   
