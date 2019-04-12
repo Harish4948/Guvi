@@ -1,2 +1,2 @@
-s=raw_input()
-print(s[::-1])
+i=raw_input() #takes input
+print(s[::-1]) #Reverse using string slicing
