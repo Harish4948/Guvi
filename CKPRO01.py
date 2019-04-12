@@ -1,5 +1,4 @@
 def longestprefix(s1,s2):
-      print(s1,s2)
       n1=len(s1)
       n2=len(s2)
       result=""
