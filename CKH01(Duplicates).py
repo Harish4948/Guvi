@@ -12,6 +12,7 @@ un=list()
 for i in dup:
       if i not in un:
             un.append(i)
+un.sort()
 for i in un:
       print(i),
 
