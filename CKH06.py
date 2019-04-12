@@ -11,15 +11,4 @@ for i in l:
             print(i)
             break
       
-            #update the occurance
-##            
-##            k=d[i]
-##            d[i]=k+1
-##un=list() # To store unique elements with Occurane 1
-##for i in l:
-##      if(d[i]==1):
-##            un.append(i)
-##for i in un:
-##      print(i),
-##            
-##            
+
