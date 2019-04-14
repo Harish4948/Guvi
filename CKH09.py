@@ -1,21 +1,14 @@
-import sys
 n=raw_input()
-l=map(int,raw_input().split())
-s=abs(l[0]+l[1])
-if s==0:
-      print(l[0]),
-      print(l[1])
-      sys.exit()
+l=list(map(int,raw_input().split()))
+op=[]
 for i,v in enumerate(l):
       for j in range(i+1,len(l)):
             temp=[l[i],l[j]]
             res=abs(temp[0]+temp[1])
-            if res<=s:
-                  s=res
-                  x,y=l[i],l[j]
-                  if s==0:
-                        print(x),
-                        print(y)
-                        sys.exit()
-print(x),
-print(y)
+            if(res>=0 and res<1):
+                  op.append(temp)
+for i in range(len(op)):
+      for j in range(2):
+            print(op[i]),
+            print(op[j])
+            
