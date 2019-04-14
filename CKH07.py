@@ -1,3 +1,4 @@
+#COde to print odd no in even index and even no in odd index
 n=raw_input()
 l=list(map(int,raw_input().split()))
 new=list()
