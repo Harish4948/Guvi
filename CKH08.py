@@ -11,7 +11,7 @@ for i,v in enumerate(l):
 for i in range(len(op)):
       for j in range(3):
             print(op[i][j]),
-      print
+      print("")
 
 
       
