@@ -10,4 +10,3 @@ elif(l2==l2 or l1>l2):
     while i<l2 and x[i]==y[i]:
         i+=1
     print(l1-i)
-    
