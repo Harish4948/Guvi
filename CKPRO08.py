@@ -10,3 +10,6 @@ for i in range(q):
             res.append(gcd(arr[q[0]-1],arr[q[1]-1]))
 for i in res:
       print(i)
+      
+      
+      
